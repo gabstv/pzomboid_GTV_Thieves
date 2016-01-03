@@ -1,6 +1,6 @@
-# GTV Thieves 1.0
-
 ![GTV Thieves](https://raw.githubusercontent.com/gabstv/pzomboid_GTV_Thieves/master/poster.png)
+
+### [Steam Workshop Page](http://steamcommunity.com/sharedfiles/filedetails/?id=592183229)
 
 ## [Pick Locks](https://gfycat.com/HandmadeOrneryCranefly)
 
