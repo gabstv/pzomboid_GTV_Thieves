@@ -1,0 +1,8 @@
+name=GTV Thieves
+id=Gabs_Thieves
+description=Pick locks and dismantle TVs.
+poster=poster.png
+
+modversion=1.0
+pzversion=32.30
+versionurl=https://raw.githubusercontent.com/Thuztor/SprayPaint/master/mod.info

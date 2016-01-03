@@ -1,0 +1,16 @@
+module Gabs_Thieves
+{
+	imports
+    {
+        Base
+    }
+	item PickLockMag
+	{
+	    Weight	=	0.1,
+	    Type	=	Literature,
+	    DisplayName	=	The Burglar's Magazine,
+	    Icon	=	MagazineElectronics02,
+	    TeachedRecipes  =   PickLock;Make Paperclip,
+	    ReplaceOnUse    =   PickLockMag,
+	}
+}

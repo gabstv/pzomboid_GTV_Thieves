@@ -1,0 +1,16 @@
+module Gabs_Thieves
+{
+	imports
+	{
+		Base
+	}
+	recipe Make Paperclip
+    {
+        keep KitchenKnife/HuntingKnife/TinOpener,
+        Wire,
+        Result:Paperclip,
+        Time:80.0,
+        Category:Survivalist,
+        NeedToBeLearn:true,
+    }
+}
