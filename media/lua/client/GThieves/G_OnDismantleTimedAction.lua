@@ -92,7 +92,7 @@ function G_OnDismantleTimedAction:dotv()
 		self.character:getInventory():AddItem("Base.ElectronicsScrap");
 	end
 
-	if perkLvl > 7 and ZombRand(2) == 0 then
+	if perkLvl > 7 and ZombRand(3) == 0 then
 		self.character:getInventory():AddItem("Base.Amplifier");
 	end
 end
@@ -118,15 +118,14 @@ function G_OnDismantleTimedAction:dolaundry()
     	return;
 	end
 
-	if electricityLvl > 2 then
-		self.character:getInventory():AddItem("Base.ElectronicsScrap");
-	end
-
 	self.character:getXp():AddXP(Perks.Electricity, 1);
 
 	self.character:getInventory():AddItem("Base.Screws");
 	self.character:getInventory():AddItem("Base.ScrapMetal");
 
+	if electricityLvl > 2 then
+		self.character:getInventory():AddItem("Base.ElectronicsScrap");
+	end
 
 	if electricityLvl > 3 then
 		self.character:getInventory():AddItem("Base.RubberBand");
