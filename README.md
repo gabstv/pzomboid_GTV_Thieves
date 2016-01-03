@@ -1,4 +1,7 @@
 # GTV Thieves 1.0
+
+![GTV Thieves](https://raw.githubusercontent.com/gabstv/pzomboid_GTV_Thieves/master/poster.png)
+
 ## Pick Locks
 ## Dismantle TVs and other things.
 
